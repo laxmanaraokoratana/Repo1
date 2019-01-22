@@ -1,0 +1,29 @@
+-->To check git is installed in your computer
+git --version
+
+git config --global user.email "laxmanarao.koratana123@gmail.com"
+git config --global user.name "laxmanaraokoratana"
+-->go to the folder where you want to have your git
+Cd /Git/MyFolder
+-->To Initialize empty Git repository in /Users/lakshmanarao.koratana123/Git/MyFolder/.git/
+git init
+
+--> To check any updates 
+git status
+
+--> To create files use
+touch test1.txt
+
+-->To add changes to git use
+git add .
+
+-->To commit changes to git use
+git commit -m "test1.txt file created and added"
+
+--> To create a remote repository  use
+git remote add origin https://github.com/laxmanaraokoratana/Repo1.git
+
+-->To push the changes to remote repository use
+git push -u origin master
+
+-->
